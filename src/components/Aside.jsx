@@ -25,7 +25,7 @@ export default function Aside(){
         },
         {
             channel: "ibai",
-            Game: "Porno Furro 2",
+            Game: "Casino",
             Viewers:"6969"
         },
         {
