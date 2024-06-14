@@ -10,7 +10,7 @@ export default function NavTag(){
         <div className="flex row gap-2 pl-3">
             {categories.map((category)=>{
                 return (
-                    <span key={`category-${category}`} className="font-semibold pl-4 pr-4  pb-2 rounded-[20px] text-[#EFEFF1]  hover:text-[#BF94FF] cursor-pointer text-xl">
+                    <span key={`category-${category}`} className="font-semibold pl-4 pr-4  pb-2 rounded-[20px] text-[#EFEFF1]  hover:text-[#BF94FF] cursor-pointer text-xl hidden md:flex">
                         {category}
                     </span>
                 )

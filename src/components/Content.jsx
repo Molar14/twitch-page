@@ -97,11 +97,95 @@ export default function Content(){
             Viewers:"185.7K",
             Tags:["Simulacion","Estrategia"]
         },
+        {
+            Name: "Minecraft",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion"]
+        },
+        {
+            Name: "Grand Theft Auto V",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Shooter en primer persona"]
+        },
+        {
+            Name: "IRL",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/509672-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["IRL(vida real)"]
+        },
+        {
+            Name: "EA Sports FC 24",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/143106037_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion","Deportes"]
+        },
+        {
+            Name: "Tom Clancy's ...",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/460630_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Shooter en primer persona"]
+        },
+        {
+            Name: "ELDEN RING",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Juego de rol"]
+        },
+        {
+            Name: "Bodycam",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/1910993272_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion","Estrategia"]
+        },
+        {
+            Name: "Minecraft",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion"]
+        },
+        {
+            Name: "Grand Theft Auto V",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Shooter en primer persona"]
+        },
+        {
+            Name: "IRL",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/509672-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["IRL(vida real)"]
+        },
+        {
+            Name: "EA Sports FC 24",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/143106037_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion","Deportes"]
+        },
+        {
+            Name: "Tom Clancy's ...",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/460630_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Shooter en primer persona"]
+        },
+        {
+            Name: "ELDEN RING",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Juego de rol"]
+        },
+        {
+            Name: "Bodycam",
+            Image:"https://static-cdn.jtvnw.net/ttv-boxart/1910993272_IGDB-285x380.jpg",
+            Viewers:"185.7K",
+            Tags:["Simulacion","Estrategia"]
+        },
         
         
     ]
     return <section className="bg-[#0E0E10]">
-        <section className="grid grid-cols-8 p-4 gap-1">
+        <section className="grid grid-cols-2 p-4 gap-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-8">
         {FeedGames.map((game)=>{
             return (
                 <Game 

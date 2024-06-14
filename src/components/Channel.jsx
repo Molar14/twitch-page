@@ -1,12 +1,13 @@
 import clsx from "clsx";
+import { PuntoRojo } from "../assets/icons";
 
 export default function Channel({channel,Game,Viewers}){
     return (
-    <div className="grid grid-cols-[12%_3fr] gap-2 p-2 hover:bg-[#34343B] cursor-pointer align-middle justify-center text-white">
+    <div className="p-2 hover:bg-[#34343B] cursor-pointer align-middle justify-center text-white xl:grid xl:grid-cols-[12%_3fr] xl:gap-2">
         <div className={clsx(`rounded-full`, {'grayscale': !Viewers})}>
             <img src={`https://api.dicebear.com/8.x/adventurer-neutral/svg?seed=${channel}`} alt="" className="rounded-full" height="30px" width="30px"/>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="hidden xl:flex xl:flex-row xl:justify-between ">
         {
                 Viewers ? (
                     <div>
@@ -25,9 +26,12 @@ export default function Channel({channel,Game,Viewers}){
             }
         {
                 Viewers ? (
-                    <p className="text-sm">
+                    <div className="flex flex-row justify-center align-middle">
+                        <PuntoRojo height="1.5rem" width="2rem"/>
+                        <p className="text-sm">
                         {Viewers}
                     </p>
+                    </div>
                 ):(
                     <p className="text-[#88888b] text-sm ">
                         Desconectado

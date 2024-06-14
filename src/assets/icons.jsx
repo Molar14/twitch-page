@@ -65,4 +65,51 @@ const ThreeDotsIcon = (props) => (
   </svg>
 );
 
-export { Corona, Estrella, Corazon, ThreeDotsIcon};
+const PuntoRojo = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="1em"
+    height="1em"
+    fill="red"
+    {...props}
+  >
+    <circle cx="32" cy="32" r="8" />
+  </svg>
+);
+
+const Bateria = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="1em"
+    height="1em"
+    fill="none"
+    stroke="#ffffff"
+    strokeWidth="2"
+    {...props}
+  >
+    <rect x="10" y="20" width="40" height="24" rx="3" ry="3" />
+    <line x1="50" y1="24" x2="50" y2="40" />
+    <polygon points="28,32 36,32 32,24 32,40" />
+  </svg>
+);
+
+
+const Lupa = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="1em"
+    height="1em"
+    fill="none"
+    stroke="#ffffff"
+    strokeWidth="2"
+    {...props}
+  >
+    <circle cx="27" cy="27" r="16" />
+    <line x1="41" y1="41" x2="57" y2="57" />
+  </svg>
+);
+
+export { Corona, Estrella, Corazon, ThreeDotsIcon, PuntoRojo, Bateria, Lupa};
