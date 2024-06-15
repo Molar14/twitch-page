@@ -18,7 +18,8 @@ export default function Content(){
             Name: "League of Legends",
             Image:"https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
             Viewers:"185.7K",
-            Tags:["Juego de rol","Estrategia"]
+            Tags:["Juego de rol","Estrategia"],
+            New: true
         },
         {
             Name: "Warzone",
@@ -42,7 +43,8 @@ export default function Content(){
             Name: "Fornite",
             Image:"https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
             Viewers:"185.7K",
-            Tags:["Juego de rol","Shooter"]
+            Tags:["Juego de rol","Shooter"],
+            New: true
         },
         {
             Name: "Kings League",
@@ -65,7 +67,8 @@ export default function Content(){
             Name: "Grand Theft Auto V",
             Image:"https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
             Viewers:"185.7K",
-            Tags:["Shooter en primer persona"]
+            Tags:["Shooter en primer persona"],
+            New: true
         },
         {
             Name: "IRL",
@@ -95,7 +98,8 @@ export default function Content(){
             Name: "Bodycam",
             Image:"https://static-cdn.jtvnw.net/ttv-boxart/1910993272_IGDB-285x380.jpg",
             Viewers:"185.7K",
-            Tags:["Simulacion","Estrategia"]
+            Tags:["Simulacion","Estrategia"],
+            New: true
         },
         {
             Name: "Minecraft",
@@ -194,6 +198,7 @@ export default function Content(){
                 Image={game.Image} 
                 Viewers={game.Viewers} 
                 Tags={game.Tags} 
+                New={game.New}
                 />
             )
         })}

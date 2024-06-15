@@ -4,7 +4,18 @@ export default function Game(Name){
     return (
         <div className="p-1 ">
             <div className="cursor-pointer">
-                <img src={Name.Image} alt="" />
+            {
+                    Name.New ? (
+                        <div className="z-10 absolute font-semibold p-1 pl-2 pr-2 rounded-[20px] text-[#EFEFF1] bg-[#1F1F23] text-lg lg:text-base xl:text-sm">
+                            New
+                        </div>
+                    ):(
+                        <div>
+                            
+                        </div>
+                    )
+                }
+                <img src={Name.Image} alt="" className="object-cover" />
             </div>
             <div className="flex flex-row justify-between pt-2 align-middle ">
                 <div className=" cursor-pointer w-full">
