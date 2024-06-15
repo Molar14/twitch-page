@@ -3,11 +3,13 @@ import { ThreeDotsIcon } from "../assets/icons"
 export default function Game(Name){
     return (
         <div className="p-1 ">
-            <div className="cursor-pointer">
+            <div className="cursor-pointer relative">
             {
                     Name.New ? (
-                        <div className="z-10 absolute font-semibold p-1 pl-2 pr-2 rounded-[20px] text-[#EFEFF1] bg-[#1F1F23] text-lg lg:text-base xl:text-sm">
-                            New
+                        <div>
+                            <p className="z-10 absolute font-semibold pl-2 pr-2 rounded-[20px] text-[#0E0E10] bg-[#FF75E6] text-xs justify-end end-1 top-2">
+                                New
+                            </p>
                         </div>
                     ):(
                         <div>
